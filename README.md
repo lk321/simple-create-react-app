@@ -10,6 +10,24 @@ npm install
 npm test
 ```
 
+## Following this commands
+```sh
+npx create-react-app simple-create-react-app
+yarn add antd
+yarn add babel-plugin-import react-app-rewired react-app-rewire-less  -D
+
+touch config-overrides.js
+```
+
+## Add to package.json
+
+```sh
+"start": "react-app-rewired start",
+"build": "react-app-rewired build",
+"test": "react-app-rewired test --env=jsdom"
+```
+
+
 ## Dependencies
 
 - [antd](https://ghub.io/antd): An enterprise-class UI design language and React-based implementation
