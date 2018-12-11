@@ -12,11 +12,11 @@ npm test
 
 ## Following this commands
 ```sh
-npx create-react-app simple-create-react-app
-yarn add antd
-yarn add babel-plugin-import react-app-rewired react-app-rewire-less  -D
+$ npx create-react-app simple-create-react-app
+$ yarn add antd
+$ yarn add babel-plugin-import react-app-rewired react-app-rewire-less  -D
 
-touch config-overrides.js
+$ touch config-overrides.js
 ```
 
 ## Add to package.json
